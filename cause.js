@@ -76,7 +76,7 @@ function displayNewReason() {
                 duration: 0.5,
                 ease: "elastic.out",
                 onComplete: () => {
-                    shuffleButton.textContent = "Enter Our Storylane 💫";
+                    shuffleButton.textContent = "Enter Your Storylane 💫";
                     shuffleButton.classList.add('story-mode');
                     shuffleButton.addEventListener('click', () => {
                         gsap.to('body', {
@@ -145,4 +145,5 @@ document.addEventListener('mousemove', (e) => {
 });
 
 // Create initial floating elements
+
 setInterval(createFloatingElement, 2000);
